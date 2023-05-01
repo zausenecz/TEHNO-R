@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024">
+    <title>ТЕХНО-Р СЕРВИС</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <main>
+        <div id="nav-section">
+            <div id="logo"></div>
+            <div id="nav__items">
+                <div class="nav__item home"></div>
+                <div class="nav__item service nav-selected"></div>
+                <div class="nav__item mail"></div>
+                <div class="nav__item monitor"></div>
+                <div class="nav__item chart"></div>
+                <div class="nav__item lightning"></div>
+                <div class="nav__item settings"></div>
+            </div>
+        </div>
+        <div id="menu-section">
+            <div id="menu-header">Управление</div>
+            <div class="menu__item">Услуги</div>
+            <div class="menu__item menu-selected">Заказы</div>
+            <div class="menu__item">Клиенты</div>
+            <div class="menu__item">Скидки</div>
+            <div class="menu__item">Тарифы</div>
+        </div>
+
+        <div id="main-section">
+            <div id="main-header">
+                <div class="search"><input type="text" placeholder="Поиск..." /></div>
+                <div id="account">
+                    <div class="nav__item notifications top"></div>
+                    <div class="nav__item user top"></div>
+                    <div class="nav__item dropdown top"></div>
+                </div>
+            </div>
+
+            <div id="main__content">
+                <div id="content__header">
+                    <div id="orders">217</div>
+                    <div id="sort-by-date">
+                        <div class="date-selected">За все время</div>
+                        <div>10 Дек, 2020 – 14 Мар, 2023</div>
+                        <div class="nav__item dropdown top"></div>
+                    </div>
+                    <div class="nav__item download top"></div>
+                </div>
+                <div id="content__items">
+                    <div id="search__sticky">
+                        <div id="content__search">
+                            <div class="search">
+                                <input type="text" placeholder="Поиск..." />
+                            </div>
+                        </div>
+                        <div id="items__sort">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Услуга</div>
+                            <div>Клиент</div>
+                            <div>Дата</div>
+                            <div>Статус</div>
+                            <div>Цена</div>
+                        </div>
+                    </div>
+                    <div id="items-group">
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Монтаж системы пожаротушения</div>
+                            <div class="client">
+                                <div>Мартынова Вероника</div>
+                                <div>pravousaulumo-4416@yopmail.com</div>
+                            </div>
+                            <div>10 Мар, 16:32</div>
+                            <div class="status">Оплачено</div>
+                            <div>95 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Техническое обслуживание системы оповещения и эвакуации</div>
+                            <div class="client">
+                                <div>ТК АЗИНО</div>
+                            </div>
+                            <div>8 Мар, 13:46</div>
+                            <div class="status">Оплачено</div>
+                            <div>30 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка проектной документации на системы охранно-пожарной автоматики</div>
+                            <div class="client">
+                                <div>Федоров Виктор</div>
+                                <div>praugiffellobu-9763@yopmail.com</div>
+                            </div>
+                            <div>2 Мар, 22:15</div>
+                            <div class="status">Оплачено</div>
+                            <div>18 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка инженерно-технических мероприятий ГО и ЧС</div>
+                            <div class="client">
+                                <div>Поляков Кирилл</div>
+                                <div>weissurosale-4602@yopmail.com</div>
+                            </div>
+                            <div>20 Фев, 18:52</div>
+                            <div class="status">Оплачено</div>
+                            <div>14 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Выполнение работ по огнезащите материалов, изделий и конструкций</div>
+                            <div class="client">
+                                <div>Гостиница ИБИС</div>
+                            </div>
+                            <div>10 Фев, 08:12</div>
+                            <div class="status">Оплачено</div>
+                            <div>45 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Ремонт автоматических систем противодымной вентиляции</div>
+                            <div class="client">
+                                <div>Зеленина Медина</div>
+                                <div>neivoyauneivi-5242@yopmail.com</div>
+                            </div>
+                            <div>19 Янв, 21:13</div>
+                            <div class="status">Оплачено</div>
+                            <div>9 500</div>
+                        </div>
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Монтаж системы пожаротушения</div>
+                            <div class="client">
+                                <div>Мартынова Вероника</div>
+                                <div>pravousaulumo-4416@yopmail.com</div>
+                            </div>
+                            <div>10 Мар, 16:32</div>
+                            <div class="status">Оплачено</div>
+                            <div>95 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Техническое обслуживание системы оповещения и эвакуации</div>
+                            <div class="client">
+                                <div>ТК АЗИНО</div>
+                            </div>
+                            <div>8 Мар, 13:46</div>
+                            <div class="status">Оплачено</div>
+                            <div>30 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка проектной документации на системы охранно-пожарной автоматики</div>
+                            <div class="client">
+                                <div>Федоров Виктор</div>
+                                <div>praugiffellobu-9763@yopmail.com</div>
+                            </div>
+                            <div>2 Мар, 22:15</div>
+                            <div class="status">Оплачено</div>
+                            <div>18 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка инженерно-технических мероприятий ГО и ЧС</div>
+                            <div class="client">
+                                <div>Поляков Кирилл</div>
+                                <div>weissurosale-4602@yopmail.com</div>
+                            </div>
+                            <div>20 Фев, 18:52</div>
+                            <div class="status">Оплачено</div>
+                            <div>14 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Выполнение работ по огнезащите материалов, изделий и конструкций</div>
+                            <div class="client">
+                                <div>Гостиница ИБИС</div>
+                            </div>
+                            <div>10 Фев, 08:12</div>
+                            <div class="status">Оплачено</div>
+                            <div>45 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Ремонт автоматических систем противодымной вентиляции</div>
+                            <div class="client">
+                                <div>Зеленина Медина</div>
+                                <div>neivoyauneivi-5242@yopmail.com</div>
+                            </div>
+                            <div>19 Янв, 21:13</div>
+                            <div class="status">Оплачено</div>
+                            <div>9 500</div>
+                        </div>
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Монтаж системы пожаротушения</div>
+                            <div class="client">
+                                <div>Мартынова Вероника</div>
+                                <div>pravousaulumo-4416@yopmail.com</div>
+                            </div>
+                            <div>10 Мар, 16:32</div>
+                            <div class="status">Оплачено</div>
+                            <div>95 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Техническое обслуживание системы оповещения и эвакуации</div>
+                            <div class="client">
+                                <div>ТК АЗИНО</div>
+                            </div>
+                            <div>8 Мар, 13:46</div>
+                            <div class="status">Оплачено</div>
+                            <div>30 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка проектной документации на системы охранно-пожарной автоматики</div>
+                            <div class="client">
+                                <div>Федоров Виктор</div>
+                                <div>praugiffellobu-9763@yopmail.com</div>
+                            </div>
+                            <div>2 Мар, 22:15</div>
+                            <div class="status">Оплачено</div>
+                            <div>18 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка инженерно-технических мероприятий ГО и ЧС</div>
+                            <div class="client">
+                                <div>Поляков Кирилл</div>
+                                <div>weissurosale-4602@yopmail.com</div>
+                            </div>
+                            <div>20 Фев, 18:52</div>
+                            <div class="status">Оплачено</div>
+                            <div>14 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Выполнение работ по огнезащите материалов, изделий и конструкций</div>
+                            <div class="client">
+                                <div>Гостиница ИБИС</div>
+                            </div>
+                            <div>10 Фев, 08:12</div>
+                            <div class="status">Оплачено</div>
+                            <div>45 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Ремонт автоматических систем противодымной вентиляции</div>
+                            <div class="client">
+                                <div>Зеленина Медина</div>
+                                <div>neivoyauneivi-5242@yopmail.com</div>
+                            </div>
+                            <div>19 Янв, 21:13</div>
+                            <div class="status">Оплачено</div>
+                            <div>9 500</div>
+                        </div>
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Монтаж системы пожаротушения</div>
+                            <div class="client">
+                                <div>Мартынова Вероника</div>
+                                <div>pravousaulumo-4416@yopmail.com</div>
+                            </div>
+                            <div>10 Мар, 16:32</div>
+                            <div class="status">Оплачено</div>
+                            <div>95 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Техническое обслуживание системы оповещения и эвакуации</div>
+                            <div class="client">
+                                <div>ТК АЗИНО</div>
+                            </div>
+                            <div>8 Мар, 13:46</div>
+                            <div class="status">Оплачено</div>
+                            <div>30 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка проектной документации на системы охранно-пожарной автоматики</div>
+                            <div class="client">
+                                <div>Федоров Виктор</div>
+                                <div>praugiffellobu-9763@yopmail.com</div>
+                            </div>
+                            <div>2 Мар, 22:15</div>
+                            <div class="status">Оплачено</div>
+                            <div>18 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка инженерно-технических мероприятий ГО и ЧС</div>
+                            <div class="client">
+                                <div>Поляков Кирилл</div>
+                                <div>weissurosale-4602@yopmail.com</div>
+                            </div>
+                            <div>20 Фев, 18:52</div>
+                            <div class="status">Оплачено</div>
+                            <div>14 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Выполнение работ по огнезащите материалов, изделий и конструкций</div>
+                            <div class="client">
+                                <div>Гостиница ИБИС</div>
+                            </div>
+                            <div>10 Фев, 08:12</div>
+                            <div class="status">Оплачено</div>
+                            <div>45 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Ремонт автоматических систем противодымной вентиляции</div>
+                            <div class="client">
+                                <div>Зеленина Медина</div>
+                                <div>neivoyauneivi-5242@yopmail.com</div>
+                            </div>
+                            <div>19 Янв, 21:13</div>
+                            <div class="status">Оплачено</div>
+                            <div>9 500</div>
+                        </div>
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Монтаж системы пожаротушения</div>
+                            <div class="client">
+                                <div>Мартынова Вероника</div>
+                                <div>pravousaulumo-4416@yopmail.com</div>
+                            </div>
+                            <div>10 Мар, 16:32</div>
+                            <div class="status">Оплачено</div>
+                            <div>95 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Техническое обслуживание системы оповещения и эвакуации</div>
+                            <div class="client">
+                                <div>ТК АЗИНО</div>
+                            </div>
+                            <div>8 Мар, 13:46</div>
+                            <div class="status">Оплачено</div>
+                            <div>30 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка проектной документации на системы охранно-пожарной автоматики</div>
+                            <div class="client">
+                                <div>Федоров Виктор</div>
+                                <div>praugiffellobu-9763@yopmail.com</div>
+                            </div>
+                            <div>2 Мар, 22:15</div>
+                            <div class="status">Оплачено</div>
+                            <div>18 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка инженерно-технических мероприятий ГО и ЧС</div>
+                            <div class="client">
+                                <div>Поляков Кирилл</div>
+                                <div>weissurosale-4602@yopmail.com</div>
+                            </div>
+                            <div>20 Фев, 18:52</div>
+                            <div class="status">Оплачено</div>
+                            <div>14 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Выполнение работ по огнезащите материалов, изделий и конструкций</div>
+                            <div class="client">
+                                <div>Гостиница ИБИС</div>
+                            </div>
+                            <div>10 Фев, 08:12</div>
+                            <div class="status">Оплачено</div>
+                            <div>45 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Ремонт автоматических систем противодымной вентиляции</div>
+                            <div class="client">
+                                <div>Зеленина Медина</div>
+                                <div>neivoyauneivi-5242@yopmail.com</div>
+                            </div>
+                            <div>19 Янв, 21:13</div>
+                            <div class="status">Оплачено</div>
+                            <div>9 500</div>
+                        </div>
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Монтаж системы пожаротушения</div>
+                            <div class="client">
+                                <div>Мартынова Вероника</div>
+                                <div>pravousaulumo-4416@yopmail.com</div>
+                            </div>
+                            <div>10 Мар, 16:32</div>
+                            <div class="status">Оплачено</div>
+                            <div>95 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Техническое обслуживание системы оповещения и эвакуации</div>
+                            <div class="client">
+                                <div>ТК АЗИНО</div>
+                            </div>
+                            <div>8 Мар, 13:46</div>
+                            <div class="status">Оплачено</div>
+                            <div>30 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка проектной документации на системы охранно-пожарной автоматики</div>
+                            <div class="client">
+                                <div>Федоров Виктор</div>
+                                <div>praugiffellobu-9763@yopmail.com</div>
+                            </div>
+                            <div>2 Мар, 22:15</div>
+                            <div class="status">Оплачено</div>
+                            <div>18 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка инженерно-технических мероприятий ГО и ЧС</div>
+                            <div class="client">
+                                <div>Поляков Кирилл</div>
+                                <div>weissurosale-4602@yopmail.com</div>
+                            </div>
+                            <div>20 Фев, 18:52</div>
+                            <div class="status">Оплачено</div>
+                            <div>14 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Выполнение работ по огнезащите материалов, изделий и конструкций</div>
+                            <div class="client">
+                                <div>Гостиница ИБИС</div>
+                            </div>
+                            <div>10 Фев, 08:12</div>
+                            <div class="status">Оплачено</div>
+                            <div>45 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Ремонт автоматических систем противодымной вентиляции</div>
+                            <div class="client">
+                                <div>Зеленина Медина</div>
+                                <div>neivoyauneivi-5242@yopmail.com</div>
+                            </div>
+                            <div>19 Янв, 21:13</div>
+                            <div class="status">Оплачено</div>
+                            <div>9 500</div>
+                        </div>
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Монтаж системы пожаротушения</div>
+                            <div class="client">
+                                <div>Мартынова Вероника</div>
+                                <div>pravousaulumo-4416@yopmail.com</div>
+                            </div>
+                            <div>10 Мар, 16:32</div>
+                            <div class="status">Оплачено</div>
+                            <div>95 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Техническое обслуживание системы оповещения и эвакуации</div>
+                            <div class="client">
+                                <div>ТК АЗИНО</div>
+                            </div>
+                            <div>8 Мар, 13:46</div>
+                            <div class="status">Оплачено</div>
+                            <div>30 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка проектной документации на системы охранно-пожарной автоматики</div>
+                            <div class="client">
+                                <div>Федоров Виктор</div>
+                                <div>praugiffellobu-9763@yopmail.com</div>
+                            </div>
+                            <div>2 Мар, 22:15</div>
+                            <div class="status">Оплачено</div>
+                            <div>18 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка инженерно-технических мероприятий ГО и ЧС</div>
+                            <div class="client">
+                                <div>Поляков Кирилл</div>
+                                <div>weissurosale-4602@yopmail.com</div>
+                            </div>
+                            <div>20 Фев, 18:52</div>
+                            <div class="status">Оплачено</div>
+                            <div>14 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Выполнение работ по огнезащите материалов, изделий и конструкций</div>
+                            <div class="client">
+                                <div>Гостиница ИБИС</div>
+                            </div>
+                            <div>10 Фев, 08:12</div>
+                            <div class="status">Оплачено</div>
+                            <div>45 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Ремонт автоматических систем противодымной вентиляции</div>
+                            <div class="client">
+                                <div>Зеленина Медина</div>
+                                <div>neivoyauneivi-5242@yopmail.com</div>
+                            </div>
+                            <div>19 Янв, 21:13</div>
+                            <div class="status">Оплачено</div>
+                            <div>9 500</div>
+                        </div>
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Монтаж системы пожаротушения</div>
+                            <div class="client">
+                                <div>Мартынова Вероника</div>
+                                <div>pravousaulumo-4416@yopmail.com</div>
+                            </div>
+                            <div>10 Мар, 16:32</div>
+                            <div class="status">Оплачено</div>
+                            <div>95 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Техническое обслуживание системы оповещения и эвакуации</div>
+                            <div class="client">
+                                <div>ТК АЗИНО</div>
+                            </div>
+                            <div>8 Мар, 13:46</div>
+                            <div class="status">Оплачено</div>
+                            <div>30 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка проектной документации на системы охранно-пожарной автоматики</div>
+                            <div class="client">
+                                <div>Федоров Виктор</div>
+                                <div>praugiffellobu-9763@yopmail.com</div>
+                            </div>
+                            <div>2 Мар, 22:15</div>
+                            <div class="status">Оплачено</div>
+                            <div>18 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка инженерно-технических мероприятий ГО и ЧС</div>
+                            <div class="client">
+                                <div>Поляков Кирилл</div>
+                                <div>weissurosale-4602@yopmail.com</div>
+                            </div>
+                            <div>20 Фев, 18:52</div>
+                            <div class="status">Оплачено</div>
+                            <div>14 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Выполнение работ по огнезащите материалов, изделий и конструкций</div>
+                            <div class="client">
+                                <div>Гостиница ИБИС</div>
+                            </div>
+                            <div>10 Фев, 08:12</div>
+                            <div class="status">Оплачено</div>
+                            <div>45 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Ремонт автоматических систем противодымной вентиляции</div>
+                            <div class="client">
+                                <div>Зеленина Медина</div>
+                                <div>neivoyauneivi-5242@yopmail.com</div>
+                            </div>
+                            <div>19 Янв, 21:13</div>
+                            <div class="status">Оплачено</div>
+                            <div>9 500</div>
+                        </div>
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Монтаж системы пожаротушения</div>
+                            <div class="client">
+                                <div>Мартынова Вероника</div>
+                                <div>pravousaulumo-4416@yopmail.com</div>
+                            </div>
+                            <div>10 Мар, 16:32</div>
+                            <div class="status">Оплачено</div>
+                            <div>95 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Техническое обслуживание системы оповещения и эвакуации</div>
+                            <div class="client">
+                                <div>ТК АЗИНО</div>
+                            </div>
+                            <div>8 Мар, 13:46</div>
+                            <div class="status">Оплачено</div>
+                            <div>30 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка проектной документации на системы охранно-пожарной автоматики</div>
+                            <div class="client">
+                                <div>Федоров Виктор</div>
+                                <div>praugiffellobu-9763@yopmail.com</div>
+                            </div>
+                            <div>2 Мар, 22:15</div>
+                            <div class="status">Оплачено</div>
+                            <div>18 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка инженерно-технических мероприятий ГО и ЧС</div>
+                            <div class="client">
+                                <div>Поляков Кирилл</div>
+                                <div>weissurosale-4602@yopmail.com</div>
+                            </div>
+                            <div>20 Фев, 18:52</div>
+                            <div class="status">Оплачено</div>
+                            <div>14 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Выполнение работ по огнезащите материалов, изделий и конструкций</div>
+                            <div class="client">
+                                <div>Гостиница ИБИС</div>
+                            </div>
+                            <div>10 Фев, 08:12</div>
+                            <div class="status">Оплачено</div>
+                            <div>45 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Ремонт автоматических систем противодымной вентиляции</div>
+                            <div class="client">
+                                <div>Зеленина Медина</div>
+                                <div>neivoyauneivi-5242@yopmail.com</div>
+                            </div>
+                            <div>19 Янв, 21:13</div>
+                            <div class="status">Оплачено</div>
+                            <div>9 500</div>
+                        </div>
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Монтаж системы пожаротушения</div>
+                            <div class="client">
+                                <div>Мартынова Вероника</div>
+                                <div>pravousaulumo-4416@yopmail.com</div>
+                            </div>
+                            <div>10 Мар, 16:32</div>
+                            <div class="status">Оплачено</div>
+                            <div>95 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Техническое обслуживание системы оповещения и эвакуации</div>
+                            <div class="client">
+                                <div>ТК АЗИНО</div>
+                            </div>
+                            <div>8 Мар, 13:46</div>
+                            <div class="status">Оплачено</div>
+                            <div>30 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка проектной документации на системы охранно-пожарной автоматики</div>
+                            <div class="client">
+                                <div>Федоров Виктор</div>
+                                <div>praugiffellobu-9763@yopmail.com</div>
+                            </div>
+                            <div>2 Мар, 22:15</div>
+                            <div class="status">Оплачено</div>
+                            <div>18 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка инженерно-технических мероприятий ГО и ЧС</div>
+                            <div class="client">
+                                <div>Поляков Кирилл</div>
+                                <div>weissurosale-4602@yopmail.com</div>
+                            </div>
+                            <div>20 Фев, 18:52</div>
+                            <div class="status">Оплачено</div>
+                            <div>14 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Выполнение работ по огнезащите материалов, изделий и конструкций</div>
+                            <div class="client">
+                                <div>Гостиница ИБИС</div>
+                            </div>
+                            <div>10 Фев, 08:12</div>
+                            <div class="status">Оплачено</div>
+                            <div>45 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Ремонт автоматических систем противодымной вентиляции</div>
+                            <div class="client">
+                                <div>Зеленина Медина</div>
+                                <div>neivoyauneivi-5242@yopmail.com</div>
+                            </div>
+                            <div>19 Янв, 21:13</div>
+                            <div class="status">Оплачено</div>
+                            <div>9 500</div>
+                        </div>
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Монтаж системы пожаротушения</div>
+                            <div class="client">
+                                <div>Мартынова Вероника</div>
+                                <div>pravousaulumo-4416@yopmail.com</div>
+                            </div>
+                            <div>10 Мар, 16:32</div>
+                            <div class="status">Оплачено</div>
+                            <div>95 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Техническое обслуживание системы оповещения и эвакуации</div>
+                            <div class="client">
+                                <div>ТК АЗИНО</div>
+                            </div>
+                            <div>8 Мар, 13:46</div>
+                            <div class="status">Оплачено</div>
+                            <div>30 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка проектной документации на системы охранно-пожарной автоматики</div>
+                            <div class="client">
+                                <div>Федоров Виктор</div>
+                                <div>praugiffellobu-9763@yopmail.com</div>
+                            </div>
+                            <div>2 Мар, 22:15</div>
+                            <div class="status">Оплачено</div>
+                            <div>18 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка инженерно-технических мероприятий ГО и ЧС</div>
+                            <div class="client">
+                                <div>Поляков Кирилл</div>
+                                <div>weissurosale-4602@yopmail.com</div>
+                            </div>
+                            <div>20 Фев, 18:52</div>
+                            <div class="status">Оплачено</div>
+                            <div>14 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Выполнение работ по огнезащите материалов, изделий и конструкций</div>
+                            <div class="client">
+                                <div>Гостиница ИБИС</div>
+                            </div>
+                            <div>10 Фев, 08:12</div>
+                            <div class="status">Оплачено</div>
+                            <div>45 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Ремонт автоматических систем противодымной вентиляции</div>
+                            <div class="client">
+                                <div>Зеленина Медина</div>
+                                <div>neivoyauneivi-5242@yopmail.com</div>
+                            </div>
+                            <div>19 Янв, 21:13</div>
+                            <div class="status">Оплачено</div>
+                            <div>9 500</div>
+                        </div>
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Монтаж системы пожаротушения</div>
+                            <div class="client">
+                                <div>Мартынова Вероника</div>
+                                <div>pravousaulumo-4416@yopmail.com</div>
+                            </div>
+                            <div>10 Мар, 16:32</div>
+                            <div class="status">Оплачено</div>
+                            <div>95 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Техническое обслуживание системы оповещения и эвакуации</div>
+                            <div class="client">
+                                <div>ТК АЗИНО</div>
+                            </div>
+                            <div>8 Мар, 13:46</div>
+                            <div class="status">Оплачено</div>
+                            <div>30 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка проектной документации на системы охранно-пожарной автоматики</div>
+                            <div class="client">
+                                <div>Федоров Виктор</div>
+                                <div>praugiffellobu-9763@yopmail.com</div>
+                            </div>
+                            <div>2 Мар, 22:15</div>
+                            <div class="status">Оплачено</div>
+                            <div>18 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Разработка инженерно-технических мероприятий ГО и ЧС</div>
+                            <div class="client">
+                                <div>Поляков Кирилл</div>
+                                <div>weissurosale-4602@yopmail.com</div>
+                            </div>
+                            <div>20 Фев, 18:52</div>
+                            <div class="status">Оплачено</div>
+                            <div>14 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Выполнение работ по огнезащите материалов, изделий и конструкций</div>
+                            <div class="client">
+                                <div>Гостиница ИБИС</div>
+                            </div>
+                            <div>10 Фев, 08:12</div>
+                            <div class="status">Оплачено</div>
+                            <div>45 000</div>
+                        </div>
+
+                        <div class="items__item">
+                            <div class="checkbox"><input type="checkbox" /></div>
+                            <div>Ремонт автоматических систем противодымной вентиляции</div>
+                            <div class="client">
+                                <div>Зеленина Медина</div>
+                                <div>neivoyauneivi-5242@yopmail.com</div>
+                            </div>
+                            <div>19 Янв, 21:13</div>
+                            <div class="status">Оплачено</div>
+                            <div>9 500</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
